@@ -1,12 +1,12 @@
 # Omniauth::Oschina
 
-TODO: Write a gem description
+oauth2 for www.oschina.net
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'omniauth-oschina'
+    gem 'omniauth-oschina', git: 'https://github.com/jack230230/omniauth-oschina.git'
 
 And then execute:
 
@@ -18,7 +18,6 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
 
 ## Contributing
 
