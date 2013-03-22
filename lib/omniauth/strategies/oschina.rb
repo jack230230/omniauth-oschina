@@ -33,10 +33,8 @@ module OmniAuth
             'nickname' => raw_info['name'],
             'email' => email,
             'name' => raw_info['name'],
-            'image' => raw_info['avatar_url'],
-            'urls' => {
-                'Blog' => raw_info['url'],
-            },
+            'avatar' => raw_info['avatar'],
+            'blog' => raw_info['url'],
         }
       end
 
