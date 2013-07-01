@@ -5,9 +5,9 @@ module OmniAuth
     class Oschina < OmniAuth::Strategies::OAuth2
       option :client_options, {
           :site => 'http://www.oschina.net',
-          :authorize_url => 'http://www.oschina.net/action/oauth2/authorize',
-          :token_url => 'http://www.oschina.net/action/oauth2/token',
-          :profile_url => 'http://www.oschina.net/action/oauth2/user'
+          :authorize_url => 'https://www.oschina.net/action/oauth2/authorize',
+          :token_url => 'https://www.oschina.net/action/oauth2/token',
+          :profile_url => 'https://www.oschina.net/action/oauth2/user'
       }
 
       def request_phase
